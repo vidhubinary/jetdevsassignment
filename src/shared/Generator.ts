@@ -11,62 +11,50 @@ function randomScoreGenerator() {
             "userID": "u-1",
             "displayName": "Jenny Wilson",
             "picture": "",
-            "score": 36411
+            "score": 15700
         },
         {
             "userID": "u-2",
             "displayName": "Darell Steward",
             "picture": "",
-            "score": 35278
+            "score": 46200
         },
         {
             "userID": "u-3",
             "displayName": "Eleanor Pena",
             "picture": "",
-            "score": 34792
+            "score": 38800
         },
         {
             "userID": "u-4",
             "displayName": "Devon Lane",
             "picture": "",
-            "score": 34526
+            "score": 33400
         },
         {
             "userID": "u-5",
             "displayName": "Katyn Murphy", "picture":
                 "",
-            "score": 34224
+            "score": 31600
         },
         {
             "userID": "u-6",
             "displayName": "Albert Flores", "picture":
                 "",
-            "score": 34034
+            "score": 30800
         },
         {
             "userID": "u-7",
             "displayName": "Cortny Henry", "picture":
                 "",
-            "score": 33864
+            "score": 22300
         },
         {
             "userID": "u-8",
             "displayName": "Lasle Alexnder",
             "picture": "",
-            "score": 33642
+            "score": 17800
         },
-        {
-            "userID": "u-9",
-            "displayName": "Robert Fox",
-            "picture": "",
-            "score": 31235
-        },
-        {
-            "userID": "u-10",
-            "displayName": "Kristin Watson",
-            "picture": "",
-            "score": 30294
-        }
     ]
     return flickingData.map((userData, index: number) => {
         userData.score = userData.score + Math.ceil(Math.random() * 9999) * (Math.round(Math.random()) ? 1 : -1)
